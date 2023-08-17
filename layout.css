@@ -1,0 +1,15 @@
+.forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.forside_img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.forside_p {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
