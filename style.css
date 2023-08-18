@@ -137,10 +137,12 @@ h3 {
   padding: 3rem 0 6rem 0;
   font-size: 1.5rem;
   background-color: rgb(128, 128, 233);
+  font-weight: 400;
 }
 
 .cta_art {
-  background-color: rgb(128, 128, 233);
+  box-sizing: border-box;
+
   padding: 0.5rem;
   padding-left: 1rem;
   color: white;
@@ -152,14 +154,20 @@ h3 {
 }
 
 .cta_art:hover {
-  background-color: rgb(15, 15, 133);
+  background-color: rgb(85, 85, 185);
 }
 
 .details {
   font-size: 1.3rem;
   margin: 0rem 1rem 1rem 1rem;
+  padding: 0rem 2.5rem 0rem 2.5rem;
+  color: white;
 }
 
+footer {
+  background-color: rgb(196, 196, 241);
+  color: white;
+}
 /* Style the dropdown menu
 .dropdown {
   position: relative;
