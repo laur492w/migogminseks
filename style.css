@@ -84,7 +84,6 @@ a:hover {
 
 p {
   font-size: 1.3rem;
-  padding: 5px 5px 10px 5px;
 }
 
 .h1_underside {
@@ -111,7 +110,7 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgb(255, 255, 255);
   font-weight: 100;
 }
@@ -126,10 +125,39 @@ h3 {
 .forside_blaa {
   background-color: rgb(128, 128, 233);
   margin: 0rem;
+  color: white;
 }
 
 .forside_blaa_p {
   margin: 5rem 10rem 5rem 10rem;
+}
+
+.info_boks {
+  margin: 5rem 0 1rem 0;
+  padding: 3rem 0 6rem 0;
+  font-size: 1.5rem;
+  background-color: rgb(128, 128, 233);
+}
+
+.cta_art {
+  background-color: rgb(128, 128, 233);
+  padding: 0.5rem;
+  padding-left: 1rem;
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+  gap: 10px;
+  pointer-events: painted;
+  border-radius: 20px;
+}
+
+.cta_art:hover {
+  background-color: rgb(15, 15, 133);
+}
+
+.details {
+  font-size: 1.3rem;
+  margin: 0rem 1rem 1rem 1rem;
 }
 
 /* Style the dropdown menu
