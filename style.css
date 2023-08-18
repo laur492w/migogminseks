@@ -16,6 +16,10 @@ img {
   border-radius: 10px;
 }
 
+.main {
+  margin: 0rem 10rem 0rem 10rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -52,27 +56,27 @@ a:hover {
   color: #210999;
 }
 
-h1,
-h2,
-h3 {
+.h1_forside,
+.h2_forside,
+.h3_forside {
   font-size: 4rem;
   color: rgb(128, 128, 233);
   font-family: "petala-pro", sans-serif;
   font-style: normal;
 }
 
-h1 {
+.h1_forside {
   text-align: center;
   font-weight: 400;
 }
 
-h2 {
+.h2_forside {
   font-size: 2rem;
   font-weight: 100;
   text-align: center;
 }
 
-h3 {
+.h3_forside {
   font-size: 4rem;
   color: rgb(255, 255, 255);
   font-weight: 100;
@@ -81,6 +85,39 @@ h3 {
 p {
   font-size: 1.3rem;
   padding: 5px 5px 10px 5px;
+}
+
+.h1_underside {
+  font-size: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(128, 128, 233);
+  font-family: "petala-pro", sans-serif;
+  font-style: normal;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+
+.h2_space {
+  padding: 2rem 0 2rem 0;
 }
 
 .forside {
