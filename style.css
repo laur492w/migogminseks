@@ -139,6 +139,9 @@ h3 {
   background-color: rgb(128, 128, 233);
   font-weight: 400;
 }
+.h3_boks {
+  text-align: center;
+}
 
 .cta_art {
   box-sizing: border-box;
@@ -155,6 +158,10 @@ h3 {
 
 .cta_art:hover {
   background-color: rgb(85, 85, 185);
+}
+
+summary {
+  cursor: pointer;
 }
 
 .details {
